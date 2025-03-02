@@ -16,7 +16,9 @@ This is a <b>Streamlit-based application</b> that combines multiple AI-powered s
 - **Coding Assistant**: Get help with coding-related tasks like generating code snippets, debugging, or explaining concepts. (app.py)
 
 <be>
-![Streamlit Interface]("https://drive.google.com/file/d/1uzv8F0LrC5niTXj0fWXBY9pj4fwaLBwT/view?usp=drive_link")
+
+![image alt]("https://github.com/saquib5005/DocuSense---Your-Intelligent-Document-Assistant/blob/main/Streamlit%20Interface%20Images/Screenshot%202025-03-02%20143400.png?raw=true")
+
 
 
 <h2 align="left">Features:</h2>
