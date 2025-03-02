@@ -1,7 +1,6 @@
-<h1 align="center">Multi-Service AI Assistant</h1>
+<h1 align="center">🧠🔍📖 DocuSense AI Assistant</h1>
 
 <h3 align="center">Your Intelligent Assistant for Documents and Coding.</h3>
-<br>
 
 
 <img align="right" alt="AI Assistant" width="400" src="https://miro.medium.com/v2/resize:fit:1400/1*6z7Q8ZJXwWlU9ZvZz5Zz9g.gif">
@@ -13,13 +12,18 @@
 This is a <b>Streamlit-based application</b> that combines multiple AI-powered services into one cohesive platform. The app currently supports the following services:
 </p>
 
-- **Document Assistant**: Analyze and query research documents using advanced Retrieval-Augmented Generation (RAG) techniques.
-- **Coding Assistant**: Get help with coding-related tasks like generating code snippets, debugging, or explaining concepts.
+- **Document Assistant**: Analyze and query research documents using advanced Retrieval-Augmented Generation (RAG) techniques. (rag_deep.py)
+- **Coding Assistant**: Get help with coding-related tasks like generating code snippets, debugging, or explaining concepts. (app.py)
 
-<br>
+<be>
+![Streamlit Interface]("https://drive.google.com/file/d/1uzv8F0LrC5niTXj0fWXBY9pj4fwaLBwT/view?usp=drive_link")
+
+
 <h2 align="left">Features:</h2>
 
 <p align="left">
+</p>
+
 - Modular design for easy addition of new services.
 - User-friendly interface powered by Streamlit.
 - Advanced AI models utilizing LangChain, Ollama, and other state-of-the-art tools.
@@ -34,21 +38,31 @@ This is a <b>Streamlit-based application</b> that combines multiple AI-powered s
 </p>
 
 ```bash
-git clone https://github.com/your-username/multi-service-ai-assistant.git
-cd multi-service-ai-assistant
+git clone https://github.com/your-username/DocuSense---Your-Intelligent-Document-Assistant.git
+cd DocuSense---Your-Intelligent-Document-Assistant
+```
+
 <p align="left">
+
+
 2. Install the required dependencies:
 </p>
 
 ```bash
 pip install -r requirements.txt
-
+```
 <p align="left">
+
+
 3. Run the application:
 </p>
-streamlit run app.py
 
+```bash
+streamlit run app.py
+```
 <p align="left">
+
+
 4. Access the app in your browser at the URL provided by Streamlit (usually <code>http://localhost:8501</code>).
 </p>
 
@@ -56,45 +70,42 @@ streamlit run app.py
 <h2 align="left">Project Structure:</h2>
 
 <p align="left">
-```
+
+
+```bash
 project_root/
 │
-├── main.py # Main application file (entry point)
-├── rag_deep.py # Document Assistant logic (PDF processing and RAG)
-├── app.py # Coding Assistant logic (code generation and debugging)
-├── utils/ # Shared utility functions
-│ ├── embeddings.py # Embedding-related utilities
-│ ├── models.py # Model loading and configuration
-│ └── helpers.py # General helper functions
-├── document_store/ # Directory for storing uploaded PDFs
-│ └── pdfs/ # Uploaded PDFs are stored here
-├── requirements.txt # List of Python dependencies
-├── .gitignore # Files and directories to ignore when pushing to GitHub
-└── README.md # This file (project documentation)
-```
+├── main.py                       # Main application file (entry point)
+├── rag_deep.py                   # Document Assistant logic (PDF processing and RAG)
+├── app.py                        # Coding Assistant logic (code generation and debugging)
+├── document_store/               # Directory for storing uploaded PDFs
+│ └── pdfs/                          # Uploaded PDFs are stored here
+├── requirements.txt              # List of Python dependencies
+├── .gitignore                    # Files and directories to ignore when pushing to GitHub
+└── README.md                     # This file (project documentation)
+``` 
+
+
 </p>
 
 <br>
 <h2 align="left">Usage:</h2>
 
 <p align="left">
-### 1. Document Assistant
+<h3 align="left">📄 Document Assistant</h3>
 - Upload a PDF document using the "Document Assistant" service.
 - Ask questions about the content of the document.
 - The app will analyze the document and provide concise answers based on the context.
 </p>
 
 <p align="left">
-### 2. Coding Assistant
-- Switch to the "Coding Assistant" service from the sidebar.
+<h3 align="left">💻 Coding Assistant</h3>
+- Run app.py using Streamlit
 - Enter your coding-related question (e.g., "How to sort a list in Python?").
 - The app will generate a relevant response or code snippet.
 </p>
 
-<p align="left">
-### 3. About Section
-- Learn more about the application and its features in the "About" section.
-</p>
+
 
 <br>
 <h2 align="left">Connect with Me:</h2>
