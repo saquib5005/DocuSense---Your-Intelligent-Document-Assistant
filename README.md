@@ -71,6 +71,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+```bash
+streamlit run rag_deep.py
+```
 <p align="left">
 
 
