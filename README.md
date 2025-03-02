@@ -90,12 +90,12 @@ streamlit run rag_deep.py
 ```bash
 project_root/
 │
-├── main.py                       # Main application file (entry point)
 ├── rag_deep.py                   # Document Assistant logic (PDF processing and RAG)
 ├── app.py                        # Coding Assistant logic (code generation and debugging)
 ├── document_store/               # Directory for storing uploaded PDFs
 │ └── pdfs/                          # Uploaded PDFs are stored here
 ├── requirements.txt              # List of Python dependencies
+├── Streamlit Interface Images    # Screenshots of the Project Interface
 ├── .gitignore                    # Files and directories to ignore when pushing to GitHub
 └── README.md                     # This file (project documentation)
 ``` 
