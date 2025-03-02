@@ -13,11 +13,20 @@ This is a <b>Streamlit-based application</b> that combines multiple AI-powered s
 </p>
 
 - **Document Assistant**: Analyze and query research documents using advanced Retrieval-Augmented Generation (RAG) techniques. (rag_deep.py)
-- **Coding Assistant**: Get help with coding-related tasks like generating code snippets, debugging, or explaining concepts. (app.py)
 
 <be>
 
-![image alt]("https://github.com/saquib5005/DocuSense---Your-Intelligent-Document-Assistant/blob/main/Streamlit%20Interface%20Images/Screenshot%202025-03-02%20143400.png?raw=true")
+![image alt](https://github.com/saquib5005/DocuSense---Your-Intelligent-Document-Assistant/blob/ad9a66b53e09658d00de68244732a1dde9d13d3b/Streamlit%20Interface%20Images/Screenshot%202025-03-02%20143400.png)
+![image alt](https://github.com/saquib5005/DocuSense---Your-Intelligent-Document-Assistant/blob/bad85c24067564f15a153ff4143bff7e280bf1e7/Streamlit%20Interface%20Images/Screenshot%202025-03-02%20143601.png)
+<br>
+
+
+- **Coding Assistant**: Get help with coding-related tasks like generating code snippets, debugging, or explaining concepts. (app.py)
+
+
+![image alt](https://github.com/saquib5005/DocuSense---Your-Intelligent-Document-Assistant/blob/bad85c24067564f15a153ff4143bff7e280bf1e7/Streamlit%20Interface%20Images/Screenshot%202025-03-02%20142954.png)
+![image alt](https://github.com/saquib5005/DocuSense---Your-Intelligent-Document-Assistant/blob/bad85c24067564f15a153ff4143bff7e280bf1e7/Streamlit%20Interface%20Images/Screenshot%202025-03-02%20142819.png)
+
 
 
 
@@ -33,7 +42,7 @@ This is a <b>Streamlit-based application</b> that combines multiple AI-powered s
 </p>
 
 <br>
-<h2 align="left">Installation:</h2>
+<h2 align="left">📦💻Installation:</h2>
 
 <p align="left">
 1. Clone the repository:
