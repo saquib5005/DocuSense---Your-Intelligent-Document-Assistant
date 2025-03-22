@@ -45,7 +45,7 @@ This is a <b>Streamlit-based application</b> that combines multiple AI-powered s
 <h2 align="left">📦💻Installation:</h2>
 
 <p align="left">
-1. Clone the repository:
+ 1. Clone the repository:
 </p>
 
 ```bash
